@@ -9,6 +9,15 @@ public class GoCell extends Cell {
 	public void playAction() {
 	}
 	
+	public int getPrice() {
+		return 0;
+	}
+
 	void setName(String name) {
+		this.name = name;
+	}
+
+	public String toString() {
+	    return name;
 	}
 }

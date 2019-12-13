@@ -11,4 +11,12 @@ public class GoToJailCell extends Cell {
 		JailCell jail = (JailCell)(GameMaster.instance().getGameBoard().queryCell("Jail"));
 		GameMaster.instance().sendToJail(currentPlayer);
 	}
+
+	public int getPrice() {
+		return 0;
+	}
+
+	public String toString() {
+	    return name;
+	}
 }

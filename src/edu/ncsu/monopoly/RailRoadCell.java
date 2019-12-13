@@ -12,7 +12,7 @@ public class RailRoadCell extends Cell {
 	public static void setPrice(int price) {
 		RailRoadCell.price = price;
 	}
-	
+
 	public int getPrice() {
 		return RailRoadCell.price;
 	}
@@ -29,5 +29,13 @@ public class RailRoadCell extends Cell {
 				currentPlayer.payRentTo(proprietary, getRent());
 			}
 		}
+	}
+
+	public int getPrice() {
+		return 0;
+	}
+
+	public String toString() {
+	    return name;
 	}
 }

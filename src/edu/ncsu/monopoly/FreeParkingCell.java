@@ -9,4 +9,12 @@ public class FreeParkingCell extends Cell {
 	public void playAction() {
 		return;
 	}
+
+	public int getPrice() {
+		return 0;
+	}
+
+	public String toString() {
+	    return name;
+	}
 }

@@ -33,4 +33,12 @@ public class UtilityCell extends Cell {
 			}
 		}
 	}
+
+	public int getPrice() {
+		return 0;
+	}
+
+	public String toString() {
+	    return name;
+	}
 }
